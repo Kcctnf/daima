@@ -8,11 +8,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>//system(cls)头文件
+#include<conio.h>
+//system(cls)头文件
 //清零之后可以在一个棋盘上玩。
 #include<math.h>
-#define ROW 15
-#define COL 15
+#define ROW 3
+#define COL 3
 char g_arr[ROW][COL];//定义一个棋盘
 //打印一个菜单，进行是否玩游戏。
 int menu(){
